@@ -1,8 +1,8 @@
 namespace _3rdAssignment
 {
-    public partial class Form1 : Form
+    public partial class productPageForm : Form
     {
-        public Form1()
+        public productPageForm()
         {
             InitializeComponent();
         }
@@ -28,6 +28,16 @@ namespace _3rdAssignment
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
